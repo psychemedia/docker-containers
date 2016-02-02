@@ -11,7 +11,7 @@ RUN unzip tabula-jar-1.0.1.zip -d /opt  && rm tabula-jar-1.0.1.zip
 
 
 EXPOSE 8080 
-CMD ["/usr/bin/java -Dfile.encoding=utf-8 -Xms256M -Xmx1024M -jar /opt/tabula/tabula.jar"]
+CMD ["java -Dfile.encoding=utf-8 -Xms256M -Xmx1024M -jar /opt/tabula/tabula.jar"]
 
 
 
