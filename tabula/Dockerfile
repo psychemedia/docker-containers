@@ -3,7 +3,7 @@ FROM ubuntu:trusty
 MAINTAINER tony.hirst@gmail.com
 
 # Install Headless JRE after updating installed packages.
-RUN apt-get update && apt-get install -y openjdk-7-jre-headless wget
+RUN apt-get update && apt-get install -y unzip openjdk-7-jre-headless wget
 RUN apt-get clean
 
 RUN mkdir /opt/tabula && cd /opt/tabula
