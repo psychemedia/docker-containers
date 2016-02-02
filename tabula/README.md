@@ -1,0 +1,1 @@
+Simple container for Tabula PDF scraper: [tabulapdf/tabula](https://github.com/tabulapdf/tabula)
